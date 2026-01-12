@@ -11,9 +11,9 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y tmux 
-dnf5 install -y 'cosmic-ext-*'
+#dnf5 install -y 'cosmic-ext-*'
 dnf5 install -y rust-just scdoc seatd
-dnf5 install -y @cosmic-desktop-environment
+#dnf5 install -y @cosmic-desktop-environment
 dnf5 install -y kernel-cachyos-lto kernel-cachyos-lto-devel-matched akmods dwarves
 dnf5 install -y gnome-shell-extension-dash-to-panel gnome-shell-extension-system-monitor-applet gnome-shell-extension-apps-menu gnome-shell-extension-pop-shell gnome-shell-extension-just-perfection gnome-shell-extension-user-theme gnome-shell-extension-blur-my-shell
 

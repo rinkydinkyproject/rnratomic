@@ -24,8 +24,8 @@ dnf5 install -y gnome-shell-extension-dash-to-panel gnome-shell-extension-system
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 dnf5 -y copr enable bieszczaders/kernel-cachyos-lto
-dnf5 -y copr enable ligenix/cosmic-ext
-dnf5 -y copr enable ryanabx/cosmic-epoch 
+#dnf5 -y copr enable ligenix/cosmic-ext
+#dnf5 -y copr enable ryanabx/cosmic-epoch 
 
 
 
